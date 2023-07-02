@@ -48,9 +48,9 @@ train_images = train_images.reshape(train_images.shape[0], 28, 28, 1).astype('fl
 train_images = (train_images - 127.5) / 127.5
 
 # Training parameters
-batch_size = 128
-epochs = 10000
-sample_interval = 100
+batch_size = 64
+epochs = 5000
+sample_interval = 50
 
 # Training loop
 for epoch in range(epochs):
